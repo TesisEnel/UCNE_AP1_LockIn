@@ -47,8 +47,8 @@ jobs:
         run: |
           export PATH="$PATH:$HOME/.dotnet/tools"
           dotnet sonarscanner begin \
-            /o:"carolinaga07" \
-            /k:"carolinaga07_AP1_LockIn" \
+            /o:"tesisenel" \
+            /k:"TesisEnel_AP1_LockIn" \
             /d:sonar.token="${SONAR_TOKEN}" \
             /d:sonar.host.url="https://sonarcloud.io"
 
